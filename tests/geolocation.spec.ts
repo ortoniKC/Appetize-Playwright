@@ -12,7 +12,7 @@ test.use({
     },
 })
 
-test.only('Android - Geo Location demo', async ({ session }) => {
+test('Android - Geo Location demo', async ({ session }) => {
 
     await session.tap({
         element: {

@@ -13,7 +13,7 @@ export default defineConfig<AppetizeTestOptions>({
     },
     forbidOnly: !!process.env.CI,
     retries: process.env.CI ? 3 : 0,
-    reporter: 'line',
+    reporter: "html",
     workers: 1,
     fullyParallel: false,
     use: {
